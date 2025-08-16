@@ -1,0 +1,78 @@
+# Retail KPI Dashboard: Sales, Inventory & Performance Analytics
+
+This project demonstrates key business metrics and visualizations for a retail dataset using Python and data visualization libraries. The goal is to provide actionable insights into sales performance, customer demographics, and product categories.
+
+---
+
+## 📂 Project Structure
+
+retail-kpi-dashboard/
+├─ README.md # Project overview and instructions
+├─ data/
+│ └─ retail_sales_dataset.csv # Retail sales dataset used for analysis
+├─ analysis/
+│ └─ retail_kpi_analysis.ipynb # Jupyter notebook performing KPIs and visualizations
+├─ images/
+│ └─ *.png # Exported charts and plots
+
+
+---
+
+## 📊 Overview & Features
+
+- Data cleaning and processing using pandas
+- Calculation of retail KPIs including:
+  - Total Sales
+  - Average Order Value (AOV)
+  - Quantity Sold
+  - Sales by Product Category, Gender, Age Group
+- Time series analysis of monthly sales trends
+- Visualizations created with matplotlib and seaborn
+- Exported charts available in `/images/`
+
+---
+
+## 🔢 Dataset
+
+- The dataset used is [Retail Sales Dataset from Kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
+- Key columns include:  
+  `Transaction ID`, `Date`, `Customer ID`, `Gender`, `Age`, `Product Category`, `Quantity`, `Price per Unit`, `Total Amount`
+
+---
+
+## ⚙️ How to Run
+
+1. Download the dataset CSV file into the `/data/` folder.
+2. Open `retail_kpi_analysis.ipynb` in Jupyter Notebook or Google Colab.
+3. Run all the cells to perform analysis and generate charts.
+4. View exported plots inside `/images/`.
+
+---
+
+## 📝 Key Insights (Sample)
+
+- Monthly sales show consistent growth with peaks in holiday seasons.
+- Accessories and Footwear are top-performing product categories.
+- Customers aged 18-30 contribute the highest sales volume.
+- Female customers show higher purchasing volume during promotions.
+- Average order size is stable, around 2.5 items per transaction.
+
+---
+
+## 📂 How to Contribute
+
+Feel free to fork this repo and enhance analysis or add dashboards for different KPIs.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📞 Contact
+
+For questions or feedback, please contact:  
+Aniket Shubham — aniketshubham007@gmail.com  
+github.com/AniShub31
